@@ -1,0 +1,13 @@
+/*
+৩. দুইটা ভেরিয়েবল এর মধ্যে যোগ, বিয়োগ, গুণ, ভাগ কিভাবে করতে হয় সেটা কি জানো। অর্থাৎ তুমি কি +, -, *, /, %এইগুলার ব্যবহার জানো। তাহলে নাম্বার টাইপের দুইটা ভেরিয়েবল লিখো তারপর তাদের যোগ করে সেটার মান আরেকটা ভেরিয়েবল এ রাখো। একইভাবে ওই দুইটা ভেরিয়েবল এর মধ্যে বিয়োগ, গুন, ভাগ এবং ভাগশেষ বের করো। 
+*/
+
+let num1 = 10;
+let num2 = 5;
+
+let sum = num1 + num2;
+let difference = num1 - num2;
+let division = num1 / num2;
+let multiply = num1 * num2;
+let mod = num1 % num2;
+console.log(' sum: ',sum, "\n",'difference: ',difference, "\n",  'mod',mod, "\n",  'division: ', division, "\n", 'multiply: ', multiply  );
